@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: neza-league-bot
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot_setup_Neza_league.py"
-    envVars:
-      - key: TOKEN
-        value: MTM3MzY4MDQ2MDYwNTE2NTgwMQ.GtTNlb.Y6A8yrkRBjTS60StnGyeSExPPVKdABuFxbSYmE
